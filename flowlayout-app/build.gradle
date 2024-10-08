@@ -26,5 +26,5 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.2.0' // 请根据实际版本号进行替换
     implementation 'com.google.android.material:material:1.3.0'
     implementation project(':flowlayout') // 请根据实际版本号进行替换
-    implementation 'com.github.githubwwj:FlowLayout:v1.1'
+//    implementation 'com.github.githubwwj:FlowLayout:v1.2'
 }

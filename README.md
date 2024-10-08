@@ -26,7 +26,7 @@ Android流式布局，支持单选、多选等，适合用于产品标签等。
 
 ```java
 dependencies {
-    implementation 'com.github.githubwwj:FlowLayout:v1.1'
+    implementation 'com.github.githubwwj:FlowLayout:v1.2'
 }
 ```
 
