@@ -1,0 +1,12 @@
+*.iml
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+/release/
+gradlew.bat
+gradlew
+/flowlayout-app/build/

@@ -1,0 +1,30 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    compileSdkVersion 31
+    buildToolsVersion "25.0.3"
+
+    defaultConfig {
+        applicationId "wen.flowlayout"
+        minSdkVersion 21
+        targetSdkVersion 31
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.2.0' // 请根据实际版本号进行替换
+    implementation 'com.google.android.material:material:1.3.0'
+    implementation project(':flowlayout') // 请根据实际版本号进行替换
+    implementation 'com.github.githubwwj:FlowLayout:v1.1'
+}
